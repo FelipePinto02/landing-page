@@ -12,6 +12,18 @@ header, footer {
     background-color: #1F2937;
 }
 
+header, .img-section {
+    padding-bottom: 80px;
+}
+
+.quote-section, .call-to-action-section {
+    padding: 80px;
+}
+
+footer {
+    padding: 25px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -39,7 +51,6 @@ nav a, .hero-text, footer p {
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 150vh;
 }
 
 .sub-container {
@@ -196,11 +207,10 @@ nav a, .hero-text, footer p {
 .call-to-action-btn {
     border: 1px solid white;
     margin-left: 450px;
-    height: 35px;
+    height: max(50%, 25px);
 }
 
 .copyright {
-    margin-top: 15px;
     text-align: center;
 }
 
