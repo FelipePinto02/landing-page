@@ -17,7 +17,16 @@ nav {
     display: flex;
 }
 
-nav a {
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav a, .hero-text {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
@@ -30,6 +39,10 @@ nav a {
     height: 150vh;
 }
 
+.sub-container {
+    display: flex;
+}
+
 .container-item {
     border: 1px solid red;
     flex: auto;
@@ -37,6 +50,10 @@ nav a {
 
 .container-item.quote-section {
     background-color: #E5E7EB;
+}
+
+.sub-container-item {
+    flex: 1 1 0;
 }
 
 .nav-item {
@@ -55,8 +72,42 @@ nav a {
     gap: 15px;
 }
 
+.hero-section {
+    padding: 150px 150px 0px;
+    margin: 0px 150px;
+}
+
+.hero-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    flex: auto; 
+    width: max(200px, 75%);
+}
+
+.hero-text {
+    width: max(150px, 75%);
+}
+
+.img-placeholder {
+    color: white;
+    background-color: darkgray;
+    padding: 85px 200px;
+}
+
 .main-container>.container-item:first-child {
-    flex: 0.33 1 auto;
+    flex: 0.2 1 auto;
 }
 
 .main-container>.container-item:last-child {
