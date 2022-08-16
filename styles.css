@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+}
+
+.container-item {
+    border: 1px solid red;
+    flex: auto;
+}
+
+.container-item.quote-section {
+    background-color: #E5E7EB;
+}
+
+.main-container>.container-item:first-child {
+    flex: 0.33 1 auto;
+}
+
+.main-container>.container-item:last-child {
+    flex: 0.08 1 auto;
+}
