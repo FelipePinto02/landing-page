@@ -144,6 +144,28 @@ nav a, .hero-text {
     border-radius: 15px;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 1000px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 700px;
+}
+
 .main-container>.container-item:first-child {
     flex: 0.2 1 auto;
 }
